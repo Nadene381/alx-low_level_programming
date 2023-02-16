@@ -1,8 +1,10 @@
 #include <stdio.h>
-/* My first C program*/
+/**
+ * Program that uses puts function to print a string
+ *
+ *  */
 
 int main(void){
-	char s[] = "\"Programming is like building a multilingual puzzle\n ";
-	puts(s);
+	puts( "\"Programming is like building a multilingual puzzle\n ");
 	return(0);
 }
