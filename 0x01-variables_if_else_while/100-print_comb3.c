@@ -6,7 +6,7 @@
 int main(void)
 {
 int n = 0;
-int m;
+int m = 0;
 while (n < 10)
 {
 if( m != n && m < n)
