@@ -6,14 +6,14 @@
 int main(void)
 {
 int n;
-int m ;
+int m;
 int o = 0;
 
 while (o < 10)
 {
 m = 0;
 while (m < 10)
-{ 
+{
 n = 0;
 while (n < 10)
 {
@@ -25,7 +25,7 @@ putchar('0' + n);
 
 if (n + m + o != 9 + 8 + 7)
 {
-putchar(',') ;
+putchar(',');
 putchar(' ');
 }
 }
