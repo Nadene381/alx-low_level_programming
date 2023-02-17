@@ -19,9 +19,9 @@ while (n < 10)
 {
 if(n != m && m != o && o < m && m < n)
 {
-putchar('0' + o);
-putchar('0' + m);
-putchar('0' + n);
+putchar('0'+ o);
+putchar('0'+ m);
+putchar('0'+ n);
 
 if (n + m + o != 9 +8 +7)
 {
