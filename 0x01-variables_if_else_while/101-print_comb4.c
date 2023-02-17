@@ -17,7 +17,7 @@ while (m < 10)
 n = 0;
 while (n < 10)
 {
-if(n != m && m != o && o < m && m < n)
+if (n != m && m != o && o < m && m < n)
 {
 putchar('0' + o);
 putchar('0' + m);
