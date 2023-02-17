@@ -9,7 +9,7 @@ int n = 0;
 int m;
 while (n < 10)
 {
-if(n != m && m < n)
+if( m != n && m < n)
 {
 putchar(m + '0');
 putchar(n + '0');
