@@ -6,13 +6,13 @@
 int main(void)
 {
 int n;
-int m = 0;;
+int m = 0;
 while (m < 10)
 {
 n = 0;
 while (n < 10)
 {
-if(m != n && m < n)
+if (m != n && m < n)
 {
 putchar(m + '0');
 putchar(n + '0');
