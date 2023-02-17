@@ -5,23 +5,27 @@
  */
 int main(void)
 {
-int n = 0;
-int m = 0;
+int n;
+int m = 0;;
+while (m < 10)
+{
+n = 0;
 while (n < 10)
 {
-if( m != n && m < n)
+if(m != n && m < n)
 {
 putchar(m + '0');
 putchar(n + '0');
-if (n + n != 27)
+if (n + m != 27)
 {
-    putchar(',');
-    putchar(' ');
+putchar(',');
+putchar(' ');
 }
 }
 n++;
 }
 m++;
+}
 putchar('\n');
 return (0);
 }
