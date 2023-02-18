@@ -20,18 +20,18 @@ n1 = 0;
 while ( n1 <= 99)
 {
 m1 = (n1 / 10 + '0');
-o1 = (n1 % 10 + '0');  
-if(n < n1)
+o1 = (n1 % 10 + '0'); 
+if ( n < n1)
 {
 putchar(m);
 putchar(o);
-putchar(' ') ;
+putchar(' ');
 putchar(m1);
 putchar(o1);
 if (n != 98)
 {
-putchar(',') ;
-putchar(' ') ;
+putchar(',');
+putchar(' ');
 }
 }
 n1++;
