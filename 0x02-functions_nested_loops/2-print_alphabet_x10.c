@@ -10,8 +10,8 @@ char n;
 int m;
 for (m = 0; m < 10; m++)
 {
-_putchar('\n');
 for (n = 'a'; n <= 'z'; n++)
 _putchar(n);
+_putchar('\n');
 }
 }
