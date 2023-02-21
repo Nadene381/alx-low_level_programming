@@ -12,6 +12,6 @@ if (n < 0)
 m = -1 * (n % 10);
 else
 m = n % 10;
-_putchar((n % 10) + '0');
+_putchar((m % 10) + '0');
 return (m % 10);
 }
