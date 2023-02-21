@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _islower - Check main code
+ * _islower - Check main code
  * Description: Function that uses if statement
  * Return: return 1 if lowercase
  * c: variable passed in fuction
