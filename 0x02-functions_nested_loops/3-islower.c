@@ -1,18 +1,18 @@
 #include "main.h"
 /**
- * int _islower(int c) - Check main code
- * Description - Program that prints _putchar
+ * int _islower - Check main code
+ * Description -Function that uses if statement
  * Return: 0
  */
 int _islower(int c)
 {
 char n;
-int returnValue;
-for(n = 'a'; n <= 'z'; n++)
+int returnValue = 0;
+for (n = 'a'; n <= 'z'; n++)
 {
 if (n == c)
 returnValue = 1;
-else 
+else
 returnValue = 0;
 }
 return (returnValue);
