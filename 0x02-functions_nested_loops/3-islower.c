@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _isalpha(int c) - Check main code
+ * int _islower(int c) - Check main code
  * Description - Program that prints _putchar
  * Return: 0
  */
@@ -12,6 +12,6 @@ for(n = 'a'; n<= 'z'; n++)
 {
 if (n == c)
 returnValue=1;
-return (returnValue);
 }
+return (returnValue);
 }
