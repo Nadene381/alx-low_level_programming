@@ -5,7 +5,7 @@
  * Return: 1
  * @n: integer passed in function
  */
-int print_last_digit(int n);
+int print_last_digit(int n)
 {
 int m;
 int o = m % 10;
