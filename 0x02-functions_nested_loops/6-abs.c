@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * int _abs - Check main code
+ * _abs - Check main code
  * Description: Function that computes absolute value of an integer
  * Return: 1
  * @n: integer passed in function
@@ -13,6 +13,6 @@ return (n);
 }
 else
 {
-return (n* -1);
+return (n * -1);
 }
 }
