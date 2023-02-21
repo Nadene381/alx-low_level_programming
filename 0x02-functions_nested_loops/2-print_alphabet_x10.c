@@ -1,4 +1,4 @@
-include <stdio.h>
+include "main.h"
 /**
  * main - Program that prints the alphabeth in lowercase
  * Return: 0
