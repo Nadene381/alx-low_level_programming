@@ -12,9 +12,8 @@ char n;
 int m = 0;
 for(m=0; m<=10; m++)
 {
-putchar('\n');
+_putchar('\n');
 for(n = 'a'; n<= 'z'; n++)
-putchar(n);
-}
+_putchar(n);
 }
 }
