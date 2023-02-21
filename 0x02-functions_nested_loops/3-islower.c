@@ -7,9 +7,11 @@
 int _islower(int c)
 {
 char n;
+int returnValue;
 for(n = 'a'; n<= 'z'; n++)
 {
 if (n == c)
-return (1);	
+returnValue=1;
+return (returnValue);
 }
 }
