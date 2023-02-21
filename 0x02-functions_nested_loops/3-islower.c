@@ -12,8 +12,6 @@ for (n = 'a'; n <= 'z'; n++)
 {
 if (n == c)
 returnValue = 1;
-else
-returnValue = 0;
 }
 return (returnValue);
 }
