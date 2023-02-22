@@ -7,12 +7,15 @@
  */
 int _islower(int c)
 {
-char n;
-int k = 0;
-for (n = 'a'; n <= 'z'; n++)
+int _isalpha(int c)
 {
-if (n == c)
-k = 1;
+char m;
+int n = 0;
+for (m = 'a'; m <= 'z'; m++)
+{
+if (m == c)
+n = 1;
 }
-return (k);
+return (n);
+}
 }
