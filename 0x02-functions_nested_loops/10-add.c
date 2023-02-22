@@ -2,7 +2,7 @@
 /**
  * add - Check main code
  * Description: Function that add two integers
- * Return: two variables passed in fuction 
+ * Return: two variables passed in fuction
  * @num1: integer passed in function
  * @num2: integer passed in function
  */
