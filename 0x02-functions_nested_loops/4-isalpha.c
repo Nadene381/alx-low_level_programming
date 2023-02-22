@@ -14,7 +14,7 @@ for (n = 'a'; n <= 'z'; n++)
 for (m = 'A'; m <= 'Z'; m++)
 {
 if (c == n || c == m)
-returnValuer = 1;
+returnValue = 1;
 }
 }
 return (returnValue);
