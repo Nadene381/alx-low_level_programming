@@ -9,10 +9,10 @@ void times_table(void)
 int m = 0;
 int n;
 int answer = 0;
-for( n=0; n<=10; n++)
+for( n = 0; n <= 10; n++)
 {
 answer = m * n;
-if (answer <10)
+if (answer < 10)
 {
 if (n != 0)
 {
@@ -21,7 +21,7 @@ _putchar(' ');
 }
 _putchar(answer + '0');
 }
- else if (answer != 9)
+if (answer != 9)
 {
 _putchar(',');
 }
