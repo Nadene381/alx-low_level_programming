@@ -21,17 +21,16 @@ if ((multiplication / 10) > 0)
 {
 _putchar((multiplication / 10) + '0');
 }
-if (colum < 9)
-{
-_putchar(',');
-_putchar(' ');
-}
 else
 {
 _putchar(' ');
 }
 _putchar((multiplication % 10) + '0');
+else if (colum < 9)
+{
+_putchar(',');
+_putchar(' ');
+}
 }
 _putchar('\n');
-}
 }
