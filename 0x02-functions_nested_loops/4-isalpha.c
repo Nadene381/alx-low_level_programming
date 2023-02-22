@@ -3,20 +3,19 @@
  * _isalpha - Check main code
  * Description: Function that uses if statement
  * Return: return 1 if lowercase/uppercase or letter
- * @c: variable passed in fuction
+ c: variable passed in fuction
  */
 int _isalpha(int c)
 {
-char n;
-char m;
-int returnValue = 0;
-for (n = 'a'; n <= 'z'; n++)
+char lower, upper;
+int isletter = 0;
+for (lower = 'a'; lower <= 'z'; lower++)
 {
-for (m = 'A'; m <= 'Z'; m++)
+for (upper = 'A'; upper <= 'Z'; upper++)
 {
-if (c == n || c == m)
-returnValue = 1;
+if (c == lower || c == upper)
+isletter = 1;
 }
 }
-return (returnValue);
+return (isletter);
 }
