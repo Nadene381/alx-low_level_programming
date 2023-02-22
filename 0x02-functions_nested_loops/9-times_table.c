@@ -16,7 +16,7 @@ _putchar(',');
 _putchar(' ');
 for (colum = 1; colum <= 9; colum++)
 {
-multipliction = (row * colum);
+multiplication = (row * colum);
 if ((multiplication / 10) > 0)
 {
 _putchar((multiplication / 10) + '0');
