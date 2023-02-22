@@ -5,8 +5,6 @@
  * Return: return 1 if lowercase
  * @c: variable passed in fuction
  */
-int _islower(int c)
-{
 int _isalpha(int c)
 {
 char m;
