@@ -5,14 +5,13 @@
  * Return: return 1 if lowercase
  * @c: variable passed in fuction
  */
-int _isalpha(int c)
+int _islower(int c)
 {
-char m;
-int n = 0;
-for (m = 'a'; m <= 'z'; m++)
+char i;
+int lower = 0;
+for (i = 'a'; i <= 'z'; i++)
 {
-if (m == c)
-n = 1;
+if (i == c)
+lower = 1;
 }
-return (n);
-}
+return (lower);
