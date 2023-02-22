@@ -26,7 +26,7 @@ else
 _putchar(' ');
 }
 _putchar((multiplication % 10) + '0');
-else if (colum < 9)
+if (colum < 9)
 {
 _putchar(',');
 _putchar(' ');
