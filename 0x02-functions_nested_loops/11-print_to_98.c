@@ -13,10 +13,9 @@ for (; n <= 98; n++)
 {
 printf("%d", n);
 if (n == 98)
-continue;
-_putchar('\n');
+printf(", ");
 }
-_putchar('\n');
+printf("\n");
 }
 else
 {
@@ -24,9 +23,8 @@ for (; n >= 98; n--)
 {
 printf("%d", n);
 if (n == 98)
-continue;
-_putchar(", ");
+printf(", ");
 }
-_putchar('\n');
+printf("\n");
 }
 }
