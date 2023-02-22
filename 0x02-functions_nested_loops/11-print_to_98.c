@@ -5,7 +5,7 @@
  * Return: 1
  * @n: integer passed in function
  */
-void print_to_98(int n);
+void print_to_98(int n)
 {
 if (n <= 98)
 {
