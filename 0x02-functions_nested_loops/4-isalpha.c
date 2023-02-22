@@ -8,14 +8,14 @@
 int _isalpha(int c)
 {
 char n, m;
-int returnValue = 0;
+int k = 0;
 for (n = 'a'; n <= 'z'; n++)
 {
 for (m = 'A'; m <= 'Z'; m++)
 {
 if (c == n || c == m)
-returnValue = 1;
+k = 1;
 }
 }
-return (returnValue);
+return (k);
 }
