@@ -10,10 +10,9 @@ int _isupper(int c)
 char i;
 for (i = 'A'; i <= 'Z'; i++)
 {
-if (c == i)
+if (c >= i)
 return (1);
-else if (c != i)
+else
 return (0);
 }
-return (i);
 }
