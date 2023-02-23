@@ -12,9 +12,9 @@ for (m = 0; m <=10; m++)
 {
 for (n = 0; n <= 14; n++)
 {
-putchar((n/10) + 48);
-putchar((n%10) + 48);
+_putchar((n/10) + 48);
+_putchar((n%10) + 48);
 }
-putchar('\n');
+_putchar('\n');
 }
 }
