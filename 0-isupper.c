@@ -11,8 +11,8 @@ char i;
 for (i = 'A'; i <= 'Z'; i++)
 {
 if (c == i)
-return 1;
+return (1);
 else if (c != i)
-return 0;
+return (0);
 }
 }
