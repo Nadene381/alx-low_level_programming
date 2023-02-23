@@ -15,4 +15,5 @@ return (1);
 else if (c != i)
 return (0);
 }
+return (i);
 }
