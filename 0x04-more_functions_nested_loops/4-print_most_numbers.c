@@ -13,5 +13,4 @@ if (n != 2 && n != 4)
 putchar(n);
 }
 putchar('\n');
-return (0);
 }
