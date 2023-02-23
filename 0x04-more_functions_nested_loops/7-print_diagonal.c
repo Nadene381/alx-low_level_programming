@@ -2,6 +2,7 @@
 /**
  * print_diagonal- Check main code
  * Description: Function that prints 0 - 14 ten times
+ * @n: variable passed in fuction
  * Return: 0
  */
 void print_diagonal(int n)
