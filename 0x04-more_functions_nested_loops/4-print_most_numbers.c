@@ -10,7 +10,7 @@ int n;
 for (n = 48; n <= 57; n++)
 {
 if (n != 2 && n != 4)
-putchar(n);
+_putchar(n);
 }
-putchar('\n');
+_putchar('\n');
 }
