@@ -19,5 +19,5 @@ else if ((n % 5) == 0)
 printf("Buzz ");
 }
 return (0);
-putchar('\n');
+_putchar('\n');
 }
