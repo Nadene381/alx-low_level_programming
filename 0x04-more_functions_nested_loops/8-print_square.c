@@ -15,7 +15,8 @@ for (m = 0; m < size; m++)
 {
 _putchar(35);
 }
-if (m != size - 1);
+if (n != size - 1);
+_putchar('\n);
 }
 _putchar('\n');
 }
