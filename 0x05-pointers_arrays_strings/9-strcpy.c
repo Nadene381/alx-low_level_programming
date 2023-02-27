@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_array- Check main code
- * Description: Function that copies string to bufffer 
+ * Description: Function that copies string to bufffer
  * Return: pointer dest
  * @dest: variable passed in fuction
  * @src: variable passed in fuction
