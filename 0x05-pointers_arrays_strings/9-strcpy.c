@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_array- Check main code
+ * _strcpy - Check main code
  * Description: Function that copies string to bufffer
  * Return: pointer dest
  * @dest: variable passed in fuction
