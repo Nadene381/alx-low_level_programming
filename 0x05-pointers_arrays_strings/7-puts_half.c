@@ -13,7 +13,7 @@ int m;
 int i = 0;
 char half_of_string[10];
 int length_of_the_string = strlen(str);
-int n = (length_of_the_string -1) / 2;
+int n = (length_of_the_string - 1) / 2;
 if (str[i] != '\0')
 {
 for (i = n+1, m = 0; i <= length_of_the_string; i++, m++)
