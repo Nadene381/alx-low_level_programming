@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _atoiCheck main code
+ * _atoi - Check main code
  * Description: Function that convert int to string
  * Return: 1 but if no numbers in string return 0
  * @s: variable passed in fuction
