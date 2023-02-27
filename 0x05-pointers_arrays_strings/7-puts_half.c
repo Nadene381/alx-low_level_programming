@@ -11,7 +11,7 @@ void puts_half(char *str)
 {
 int m;
 int i = 0;
-char half_of_string[10];
+char half_of_string[300];
 int length_of_the_string = strlen(str);
 int n = (length_of_the_string - 1) / 2;
 if (str[i] != '\0')
