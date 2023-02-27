@@ -13,12 +13,12 @@ int i;
 int m;
 for (i = 0; i < n; i++)
 {
-for (m = 0; m < i; m++)
+/*for (m = 0; m < i; m++)
 {
 printf(", ");
 m += 3;
-}
-printf("%d", *a);
+}*/
+printf("%d, ", *a);
 a++;
 }
 printf("\n");
