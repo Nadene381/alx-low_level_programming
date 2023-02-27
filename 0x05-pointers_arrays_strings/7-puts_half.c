@@ -22,4 +22,5 @@ half_of_string[m] = str[i];
 }
 printf("%s", half_of_string);
 }
+_putchar('\n');
 }
