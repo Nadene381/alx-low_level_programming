@@ -20,7 +20,7 @@ for (i = n + 1, m = 0; i <= length_of_the_string; i++, m++)
 {
 half_of_string[m] = str[i];
 }
-printf("%s", half_of_string);
+printf("%s\n", half_of_string);
 }
 _putchar('\n');
 }
