@@ -13,5 +13,5 @@ int i;
 for (i = 0 ; i < src[i] != '\0' ; i++)
 dest[lenght + i] = src[i];
 dest[lenght + i] = '\0';
-return dest;
+return (dest);
 }
