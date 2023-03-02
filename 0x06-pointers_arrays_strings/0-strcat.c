@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <string.h>
 /**
  * *_strcat- Check main code
  * Description: Function that concatenates two string
