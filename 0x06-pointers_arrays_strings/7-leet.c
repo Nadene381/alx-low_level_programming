@@ -11,13 +11,13 @@ int i = 0;
 int m = 0;
 char *letter = "aAeEoOlLtT";
 char *numb = "4433001177";
-while (*(s + i) != '\0')
+while (*(n + i) != '\0')
 {
 while (*(letter + m) != '\0')
 {
 if (*(n + i) == *(letter + m))
 *(n + i)  = *(numb + m);
-j++;
+m++;
 }
 m = 0;
 i++;
