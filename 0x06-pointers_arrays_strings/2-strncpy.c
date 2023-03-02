@@ -16,5 +16,5 @@ for (m = 0; m < n && (src[m] != '\0'); m++)
 dest[m] = src[m];
 for ( ; m < n; m++)
 dest[m] = '\0';
-return dest;
+return (dest);
 }
