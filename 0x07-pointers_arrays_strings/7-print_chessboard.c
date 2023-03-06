@@ -18,4 +18,5 @@ _putchar('\n');
 }
 _putchar((a[i / 8][i - lenght]));
 }
+_putchar('\n');
 }
