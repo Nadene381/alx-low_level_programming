@@ -23,5 +23,5 @@ break;
 if (k == 1)
 break;
 }
-return (i);
+return (n);
 }
