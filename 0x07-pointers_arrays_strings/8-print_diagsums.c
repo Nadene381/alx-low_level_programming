@@ -14,7 +14,7 @@ for (n = 0; n < (size * size); n++)
 {
 if (n % (size + 1) == 0)
 s1 += *(a + n);
-if (n % (size - 1) == 0 && n != 0 && i < size * size - 1)
+if (n % (size - 1) == 0 && n != 0 && n < size * size - 1)
 s2 += *(a + n);
 }
 printf("%d, %d\n", s1, s2);
