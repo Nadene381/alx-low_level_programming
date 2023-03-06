@@ -25,4 +25,3 @@ haystack = n + 1;
 }
 return (0);
 }
-}
