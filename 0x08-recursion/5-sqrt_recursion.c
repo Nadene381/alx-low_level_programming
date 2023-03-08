@@ -12,7 +12,7 @@ if (x * x == n)
 return (x);
 if (n < 0 || x * x > n)
 return (-1);
-return (calculate(x + 1);
+return (calculate(x + 1));
 }
 /**
  * _sqrt_recursion - Check main code
