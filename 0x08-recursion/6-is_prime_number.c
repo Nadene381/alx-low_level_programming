@@ -3,7 +3,8 @@
  * getPrimNum - Check main code
  * Description: A function that return 1 if the input integer is a prime number
  * Return: 1
- * @n: variable passed in fuction
+ * @m: variable passed in fuction
+ * @i: variable passed in fuction
  */
 int getPrimNum(int m, int i)
 {
@@ -17,8 +18,7 @@ return (getPrimNum(m, i + 1));
  * is_prime_number - Check main code
  * Description: A function that checks if number is 0 or 1
  * Return: 1
- * @m: variable passed in fuction
- * @i: variable passed in fuction
+ * @n: variable passed in fuction
  */
 int is_prime_number(int n)
 {
