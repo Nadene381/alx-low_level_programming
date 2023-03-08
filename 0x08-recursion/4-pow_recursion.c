@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * factorial- Check main code
+ * _pow_recursion - Check main code
  * Description: A function that returns x raised to power y
  * Return: 1
  * @x: variable passed in fuction
