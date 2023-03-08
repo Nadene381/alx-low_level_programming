@@ -5,14 +5,14 @@
  * Return: 1
  * @x: variable passed in fuction
  * @n: variable passed in fuction
- */
+*/
 int calculate(int x, int n)
 {
 if (x * x == n)
 return (x);
 if (n < 0 || x * x > n)
 return (-1);
-return (calculate(x + 1));
+return (calculate(x + 1, n));
 }
 /**
  * _sqrt_recursion - Check main code
