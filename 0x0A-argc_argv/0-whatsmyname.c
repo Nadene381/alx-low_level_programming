@@ -2,7 +2,7 @@
 
 /**
  * main - A program that prints its name
- * @argc: number of argument 
+ * @argc: number of argument
  * @argv: array of argunment
  *
  * Return: int
