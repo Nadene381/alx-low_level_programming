@@ -45,6 +45,6 @@ return (-1);
 else
 m = m * 10 + (a[n] - '0');
 n++;
-return (m);
 }
+return (m);
 }
