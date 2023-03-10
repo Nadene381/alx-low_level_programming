@@ -1,0 +1,5 @@
+!<arch>
+0-isupper.o/    0           0     0     644     24        `
+int _isupper(int c)
+{
+}
