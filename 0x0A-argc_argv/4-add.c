@@ -11,8 +11,8 @@
 int main(int argc, char *argv[])
 {
 int n, m, r;
-res = 0;
-for (n = 1; i < argc; n++)
+r = 0;
+for (n = 1; n < argc; n++)
 {
 m = checkNum(argv[n]);
 if (m == -1)
@@ -38,10 +38,9 @@ m = 0;
 lenght = strlen(a);
 while (n < lenght)
 {
-if (a[n] < '0' || a[nn] > '9')
+if (a[n] < '0' || a[n] > '9')
 {
 return (-1);
-}
 else
 m = m * 10 + (a[n] - '0');
 n++;
