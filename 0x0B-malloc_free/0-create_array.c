@@ -1,5 +1,5 @@
 /**
-* create_array - a function that creates an array of chars, and initializes it with a specific char.
+* create_array - a function that creates an array of chars.
 * @size: variable passed in function
 * @c: variable passed in function
 * Return: 1
