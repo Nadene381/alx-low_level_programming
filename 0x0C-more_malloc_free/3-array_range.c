@@ -12,7 +12,7 @@ int *a;
 int i;
 if (min > max)
 return (NULL);
-a = malloc(sizeof(*a) * ((max - min) + 1);
+a = malloc(sizeof(*a) * ((max - min) + 1));
 if (a == NULL)
 return (NULL);
 for (i = 0; min <= max; i++, min++)
