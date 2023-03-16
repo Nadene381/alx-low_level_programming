@@ -20,8 +20,8 @@ for (p1 = 0; s1[p1] != '\0'; p1++)
 ;
 for (p2 = 0; s2[p2] != '\0'; p2++)
 ;
-if (k > p2)
-k = p2;
+if (n > p2)
+n = p2;
 m = p1 + n;
 k = malloc(m + 1);
 if (k == NULL)
