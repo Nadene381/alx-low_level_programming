@@ -14,11 +14,6 @@ char *owner1;
 name1 = d->name;
 age1 = d->age;
 owner1 = d->owner;
-if (d == NULL)
-{
-}
-else
-{
 if (name1 == NULL)
 printf("Name: (nill)\n");
 else
@@ -31,5 +26,4 @@ if (owner1 == NULL)
 printf("Owner: (nill)\n");
 else
 printf("Owner: %s\n", owner1);
-}
 }
