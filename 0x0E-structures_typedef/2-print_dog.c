@@ -8,22 +8,16 @@
  */
 void print_dog(struct dog *d)
 {
-char *name1;
-float age1;
-char *owner1;
-name1 = d->name;
-age1 = d->age;
-owner1 = d->owner;
 if (d != 0)
 {
-if (name1 == 0)
+if (d->name == 0)
 printf("Name: (nil)\n");
 else
-printf("Name: %s\n", name1);
-printf("Age: %.6f\n", age1);
-if (owner1 == 0)
+printf("Name: %s\n", d->name);
+printf("Age: %.6f\n", d->age);
+if (d->owner == 0)
 printf("Owner: (nil)\n");
 else
-printf("Owner: %s\n", owner1);
+printf("Owner: %s\n", d->owner);
 }
 }
