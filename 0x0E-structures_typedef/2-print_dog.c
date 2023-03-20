@@ -16,12 +16,12 @@ age1 = d->age;
 owner1 = d->owner;
 if (d != 0)
 {
-if (name1 == NULL)
+if (name1 == 0)
 printf("Name: (nil)\n");
 else
 printf("Name: %s\n", name1);
 printf("Age: %.6f\n", age1);
-if (owner1 == NULL)
+if (owner1 == 0)
 printf("Owner: (nil)\n");
 else
 printf("Owner: %s\n", owner1);
