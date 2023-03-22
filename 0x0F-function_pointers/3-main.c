@@ -4,7 +4,7 @@
 #include <string.h>
 
 /**
- * main - Check main code 
+ * main - Check main code
  * @argc: variable passed in function
  * @argv: variable passed in function
  * Return: int
