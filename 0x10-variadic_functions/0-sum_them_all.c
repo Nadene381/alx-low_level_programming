@@ -8,14 +8,14 @@
  */
 int sum_them_all(const unsigned int n, ...)
 {
-if (n == 0)
-return 0;
-unsigned int k = n;
 va_list m;
 int i = 0;
+unsigned int k = n;
+if (n == 0)
+return (0);
 va_start(m, n);
 for (; k > 0; k--)
 i += va_arg(m, int);
 va_end(m);
-return(i);
+return (i);
 }
