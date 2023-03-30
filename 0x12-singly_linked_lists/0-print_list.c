@@ -15,13 +15,13 @@ unsigned int count = 0;
 const list_t *current_node  = h;
 while (current_node  != NULL)
 {
-if (current_node ->str == NULL)
+if (current_node->str == NULL)
 printf("[0] (nil)\n");
 else
 {
-printf("[%d] %s\n", current_node ->len, current_node ->str);
+printf("[%d] %s\n", current_node->len, current_node->str);
 }
-current_node = current_node ->next;
+current_node = current_node->next;
 count++;
 }
 return (count);
