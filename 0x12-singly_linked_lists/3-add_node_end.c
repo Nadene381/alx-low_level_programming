@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "lists.h"
-
+#include <stdbool.h>
 /**
 * add_node_end - a function that adds a new node at the end of a list_t list.
 * @head: pointer to our head
@@ -12,41 +12,23 @@
 
 list_t *add_node_end(list_t **head, const char *str)
 {
-unsigned int count;
-list_t *new_node;
-list_t *current_node ;
-
-new_node = malloc(sizeof(list_t));
-current_node  = *head;
-
-if (new_node == NULL)
-{
+list_t *n, *temp;
+n = malloc(sizeof(list_t));
+if (n == NULL)
 return (NULL);
-}
-
-new_node->str = strdup(str);
-if (new_node->str != '\0')
-{
-for (count = 0; new_node->str[count] != '\0'; count++)
-{
-;
-}
-}
-new_node->len = count;
-if (*head == NULL)
-{
-*head = new_node;
-return (new_node);
-}
+n->str = strdup(str);
+n->len = strlen(str);
+n->next = NULL;
+temp = *head;
+if (temp == NULL)
+*head = n;
 else
 {
-current_node  = *head;
-while (current_node ->next != NULL)
+while (temp->next != NULL)
 {
-current_node  = current_node ->next;
+temp = temp->next;
 }
-
-current_node ->next = new_node;
+temp->next = n;
 }
-return (current_node );
+return (*head);
 }
