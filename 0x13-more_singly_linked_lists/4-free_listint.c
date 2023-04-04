@@ -10,14 +10,13 @@
 */
 void free_listint(listint_t *head)
 {
-struct listint_s *next;
-struct listint_s numNodes = *head;
-*head = NULL;
-for ( ; numNodes != NULL; )
+listint_t *new_Nodes = head;
+listint_t *next;
+for ( ; new_Nodes != NULL; )
 {
-next = numNodes->next;
-free(numNodes);
-numNodes = next;
+next = new_Nodes->next;
+free(new_Nodes);
+new_Nodes = next;
 }
-return (0);
+head = NULL;
 }
