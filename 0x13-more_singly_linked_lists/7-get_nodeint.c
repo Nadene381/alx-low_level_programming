@@ -16,8 +16,10 @@ unsigned int numb;
 numb = 0;
 for ( ; new_Node != NULL; )
 {
-while (numb == index)
+while (numb < index)
 {
+return (new_Node);
+}
 numb++;
 new_Node = new_Node->next;
 }
