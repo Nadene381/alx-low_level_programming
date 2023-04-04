@@ -10,14 +10,14 @@
 */
 size_t print_listint(const listint_t *h)
 {
-size_t numNodes = 0;
-struct listint_s* i = h;
-
-for(; i!= ((void*)0);)
+const listint_t *i = h;
+size_t numNodes;
+numNodes = 0;
+for ( ; i != ((void *)0); )
 {
 printf("%d\n", i->n);
 i = i->next;
 numNodes++;
 }
-return numNodes;
+return (numNodes);
 }
