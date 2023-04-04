@@ -19,7 +19,7 @@ while (new_Node != NULL && numb < index)
 numb++;
 new_Node = new_Node->next;
 }
-for( ; numb != index; )
+for ( ; numb != index; )
 {
 return (NULL);
 }
