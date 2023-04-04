@@ -14,14 +14,14 @@ listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 listint_t *new_Node = head;
 unsigned int numb;
 numb = 0;
-while (count != index)
-{
-return (NULL);
-}
-while (new_Node != NULL && numb <= index)
+while (new_Node != NULL && numb < index)
 {
 numb++;
 new_Node = new_Node->next;
+}
+for( ; numb != index; )
+{
+return (NULL);
 }
 return (new_Node);
 }
