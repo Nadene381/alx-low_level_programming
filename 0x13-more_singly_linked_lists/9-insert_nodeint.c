@@ -20,7 +20,7 @@ return (NULL);
 if (idx != 0)
 {
 Node1 = *head;
-for (idx--; idx > 0 && current != NULL; idx--)
+for (idx--; idx > 0 && Node1 != NULL; idx--)
 Node1 = Node1->next;
 while (Node1 == NULL)
 return (NULL);
