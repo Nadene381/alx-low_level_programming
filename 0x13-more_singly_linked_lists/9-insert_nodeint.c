@@ -20,9 +20,8 @@ return (NULL);
 if (idx != 0)
 {
 Node1 = *head;
-while (idx > 0 && Node1 != NULL)
+for (idx--; idx > 0 && current != NULL; idx--)
 Node1 = Node1->next;
-idx--;
 while (Node1 == NULL)
 return (NULL);
 new_Node = malloc(sizeof(*new_Node));
