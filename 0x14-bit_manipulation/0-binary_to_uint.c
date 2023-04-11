@@ -16,11 +16,7 @@ return (0);
 }
 baseTen = (baseTen << 1) + (*b - '0');
 b++;
-}
-while (*b != '\0');
-{
-b++;
-}
+} while (*b != '\0');
 return (baseTen);
 }
 
