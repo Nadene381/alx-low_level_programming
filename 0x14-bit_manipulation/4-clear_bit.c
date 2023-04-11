@@ -9,10 +9,12 @@
 */
 int clear_bit(unsigned long int *n, unsigned int index)
 {
+do {
 for ( ; (index > 31); )
 {
 return (-1);
 }
 *n = (*n & ~(1 << index));
 return (1);
+} while (1);
 }
