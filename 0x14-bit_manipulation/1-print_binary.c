@@ -10,9 +10,9 @@ void print_binary(unsigned long int n)
 {
 int numberOfBits;
 unsigned int value;
-numberOfBits =  (sizeof(unsigned int) * 8 -1);
+numberOfBits =  (sizeof(unsigned int) * 8 - 1);
 do {
-while(numberOfBits >= 0 && !(n &(1u <<numberOfBits )) )
+while (numberOfBits >= 0 && !(n & (1u << numberOfBits)))
 numberOfBits--;
 if (numberOfBits == 0)
 {
@@ -20,7 +20,7 @@ printf("0\n");
 }
 for (; numberOfBits >= 0; numberOfBits--)
 {
-value = (n >> numberOfBits) & 1;
+value = (n >> numberOfBits) &1;
 _putchar('0' + value);
 }
 } while (0);
