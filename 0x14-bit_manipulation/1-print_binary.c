@@ -9,12 +9,13 @@
 void print_binary(unsigned long int n)
 {
 int numberOfBits;
-numberOfBits =  (sizeof(n) * 8 - 1);
+numberOfBits =  (sizeof(unsigned int) * 8 -1);
 do {
+while(numberOfBits >= 0 && !(n &(1u <<numberOfBits )) )
+numberOfBits--;
 for (; numberOfBits >= 0; numberOfBits--)
 {
-printf("%ld", (n >> numberOfBits) &1);
+printf("%ld", (n >> numberOfBits) & 1);
 }
-putchar('\n');
 } while (0);
 }
