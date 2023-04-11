@@ -8,20 +8,24 @@
 */
 void print_binary(unsigned long int n)
 {
+int value;
 int numberOfBits;
-unsigned int value;
-numberOfBits =  (sizeof(unsigned int) * 8 - 1);
+numberOfBits = sizeof(unsigned long int) * 8;
+int zero = 1;
 do {
-while (numberOfBits >= 0 && !(n & (1u << numberOfBits)))
-numberOfBits--;
-if (numberOfBits == 0)
+while (n == 0)
 {
-printf("0\n");
+putchar('0');
+return;
 }
-for (; numberOfBits >= 0; numberOfBits--)
+for ( ; --numberOfBits >= 0;)
 {
 value = (n >> numberOfBits) &1;
-_putchar('0' + value);
+if (value || !zero)
+{
+putchar('0' + value);
+zero = 0;
+}
 }
 } while (0);
 }
