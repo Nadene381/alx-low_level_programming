@@ -10,7 +10,7 @@ unsigned int binary_to_uint(const char *b)
 int baseTen;
 baseTen = 0;
 do {
-for ( ; *b != '0' && *b != '1'; )
+for ( ; (*b != '0' && *b != '1' && *b != NULL); )
 {
 return (0);
 }
