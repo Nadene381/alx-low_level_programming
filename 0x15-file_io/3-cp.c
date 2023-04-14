@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * main - check the code
- *
+ * @argve: variable passed in function
+ * @argc: variable passed in function
  * Return: Always 0.
  */
 int main(int argc, char *argv[])
