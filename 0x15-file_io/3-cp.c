@@ -1,6 +1,6 @@
 
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 int myFile1;
 int myFile2;
@@ -26,7 +26,8 @@ exit(99);
 while ((bytes_read = read(myFile1, buffer, BUFFER_SIZE)) > 0)
 {
 bytes_written = write(myFile2, buffer, bytes_read);
-if (bytes_written != bytes_read) {
+if (bytes_written != bytes_read)
+{
 perror("Error: Can't write to file");
 exit(99);
 }
@@ -40,5 +41,5 @@ if (close(myFile1) == -1 || close(myFile2) == -1)
 {
 perror("Error: Can't close file descriptor");
 exit(100);
-return 0;
+return (0);
 }
