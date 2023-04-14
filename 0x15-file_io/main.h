@@ -1,6 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
+#define MAX_BUFFER_SIZE 1024
+
 #include <stddef.h>
 #include <stdio.h>
 #include <stdlib.h>
