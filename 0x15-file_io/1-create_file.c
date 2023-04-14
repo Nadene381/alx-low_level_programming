@@ -16,7 +16,7 @@ if (filename == NULL)
 return (-1);
 }
 myFile = open(filename, O_CREAT | O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR);
-while (myFile == 1)
+while (myFile == -1)
 {
 return (-1);
 }
