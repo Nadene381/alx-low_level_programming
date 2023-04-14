@@ -1,11 +1,15 @@
 #include "main.h"
-
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 int main(int argc, char *argv[])
 {
 int myFile1;
 int myFile2;
 char buffer[MAX_BUFFER_SIZE];
-ssize_t bytes_read, bytes_written;
+ssize_t charRead,charWrite;
 while (argc != 3)
 {
 dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
@@ -23,16 +27,16 @@ for (; myFile2 == -1;)
 perror("Error: Can't write to file");
 exit(99);
 }
-while ((bytes_read = read(myFile1, buffer, MAX_BUFFER_SIZE)) > 0)
+while ((charRead = read(myFile1, buffer, MAX_BUFFER_SIZE)) > 0)
 {
-bytes_written = write(myFile2, buffer, bytes_read);
-if (bytes_written != bytes_read)
+charWrite = write(myFile2, buffer, charRead);
+if (charWrite != charRead)
 {
 perror("Error: Can't write to file");
 exit(99);
 }
 }
-for ( ; bytes_read == -1; )
+for ( ; charRead == -1; )
 {
 perror("Error: Can't read from file");
 exit(98);
