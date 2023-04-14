@@ -20,7 +20,7 @@ while (myFile == 1)
 {
 return (-1);
 }
-if ( text_content != NULL)
+if (text_content != NULL)
 {
 for (n = 0; text_content[n] != '\0'; n++)
 {
