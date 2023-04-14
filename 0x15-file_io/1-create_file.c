@@ -8,27 +8,26 @@
 */
 int create_file(const char *filename, char *text_content)
 {
-int myFile = -1;
-do {
+int i = 0;
+int n;
+int myFile;
 if (filename == NULL)
 {
 return (-1);
 }
-if (myFile != 1)
-{
 myFile = open(filename, O_CREAT | O_WRONLY | O_TRUNC, S_IRUSR | S_IWUSR);
-}
-else
+while (myFile == 1)
 {
 return (-1);
 }
 if ( text_content != NULL)
 {
-int i;
-for (i = 0; text_content[i] != '\0'; i++)
+for (n = 0; text_content[n] != '\0'; n++)
+{
+i++;
+}
 write(myFile, text_content, i);
 }
 close(myFile);
-} while (0);
 return (1);
 }
