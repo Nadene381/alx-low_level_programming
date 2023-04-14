@@ -1,10 +1,10 @@
-
+#include "main.h"
 
 int main(int argc, char *argv[])
 {
 int myFile1;
 int myFile2;
-char buffer[BUFFER_SIZE];
+char buffer[MAX_BUFFER_SIZE];
 ssize_t bytes_read, bytes_written
 while (argc != 3)
 {
