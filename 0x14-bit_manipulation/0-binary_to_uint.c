@@ -14,7 +14,6 @@ conversion = (conversion << 1) | (b[n] - '0');
 }
 else if (b[n] == '\0')
 {
-return (0);
 break;
 }
 else
