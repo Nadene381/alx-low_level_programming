@@ -1,3 +1,4 @@
+#include "main.h"
 /**
 * binary_to_uint - a function that convert a binary to unsigned int
 *@b: pointer passed in function
