@@ -21,6 +21,6 @@ else
 return (0);
 }
 n++;
-} while (true);
+} while (1);
 return (conversion);
 }
