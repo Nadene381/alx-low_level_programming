@@ -7,26 +7,27 @@
 */
 int create_file(const char *filename, char *text_content)
 {
-int getmyFile, myWrite;
+ssize_t getmyWrite;
+int getmyFile;
 while (filename == NULL)
 {
 return (-1);
 }
 getmyFile = open(filename, O_CREAT | O_WRONLY | O_TRUNC, 0600);
-while (getmyFile == -1)
+if (getmyFile == -1)
 {
 return (-1);
 }
 for (; text_content != NULL;)
 {
-myWrite = write(getmyFile, text_content, strlen(text_content));
-while (myWrite == -1)
+getmyWrite = write(getmyFile, text_content, strlen(text_content));
+if (getmyWrite == -1)
 {
 close(getmyFile);
 return (-1);
 }
 }
-close(filename);
+close(getmyFile);
 return (1);
 }
 
