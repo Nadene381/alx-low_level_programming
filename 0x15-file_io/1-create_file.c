@@ -18,7 +18,12 @@ if (getmyFile == -1)
 {
 return (-1);
 }
-for (; text_content == NULL || *text_content == '\0';)
+if (text_content == NULL || *text_content == '\0')
+{
+close(getmyFile);
+return (1);
+}
+for (; text_content != NULL;)
 {
 getmyWrite = write(getmyFile, text_content, strlen(text_content));
 if (getmyWrite == -1)
