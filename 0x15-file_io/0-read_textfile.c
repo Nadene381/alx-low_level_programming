@@ -8,15 +8,15 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
+char myBuff[1024];
 ssize_t n, m;
-char myBuff[letters];
 int getmyFile;
-if (filename == NULL)
+while (filename == NULL)
 {
 return (0);
 }
 getmyFile = open(filename, O_RDONLY);
-if (getmyFile == -1)
+for (; getmyFile == -1;)
 {
 return (0);
 }
