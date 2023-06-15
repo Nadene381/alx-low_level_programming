@@ -7,10 +7,10 @@
 */
 int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 {
-while (*head == NULL)
-return (-1);
 dlistint_t *c = *head;
 unsigned int count = 0;
+while (*head == NULL)
+return (-1);
 if (index == 0)
 {
 *head = c->next;
