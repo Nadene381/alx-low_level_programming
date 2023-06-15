@@ -11,6 +11,6 @@ dlistint_t *temp = c;
 while (c != NULL)
 {
 c = c->next;
-free(temp);
 }
+free(temp);
 }
