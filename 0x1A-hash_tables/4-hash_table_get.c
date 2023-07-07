@@ -3,7 +3,7 @@
 #include "hash_tables.h"
 
 /**
-* hash_table_get - Function that retrieves a value associated with a key from the hash table.
+* hash_table_get - gets value associated with a key from the hash table.
 * @ht: The hash table to look into.
 * @key: The key to search for.
 * Return: value associated with the key, or NULL if the key can't be found.
@@ -19,7 +19,7 @@ temp = ht->array[index];
 while (temp != NULL)
 {
 if (strcmp(temp->key, key) == 0)
-return temp->value;
+return (temp->value);
 temp = temp->next;
 }
 return (NULL);
